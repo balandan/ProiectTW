@@ -21,6 +21,25 @@ ul {
 	left:14vw;
 	margin-top:3vw;
 }
+#body{
+	background-color: black;
+	opacity: .8;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+#body p{
+	font-family: Arial;
+	font-size: 20px;
+	padding-left: 47%;
+}
+#body:hover{
+	background-color: green;
+	
+}
+
 ul li{
 	float:left;
 	width:16vw;
