@@ -35,10 +35,14 @@ ul {
 	font-size: 20px;
 	padding-left: 47%;
 }
+#body a{
+text-decoration: none;
+}
 #body:hover{
 	background-color: green;
-	
+
 }
+
 
 ul li{
 	float:left;
