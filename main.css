@@ -1,7 +1,7 @@
 body{
 
 	background: url('Background1.jpg') ;
-	background-size:cover;
+
 	width:70vw;
 	font-family:Arial;
 	color:white;
@@ -11,18 +11,19 @@ body{
 
 #bodycontact{
 	background: url('Background1.jpg');
+	background-repeat: no-repeat;
 	background-size: cover;
-	background.scroll-behavior: 0.1;
+	background.scroll-behavior: 1;
 
 }
 
 .contact{
-	background-color: black;
+	background-color: rgb(50,20,30);
 	opacity: .8;
 	border: solid;
 	border-color: rgb(150,50,170);
 	border-radius: 0.5em;
-	padding-bottom: 5em;
+	padding-bottom: 3em;
 	border-top: 10;
 	border-width:medium;
 	border-right: 0;
@@ -40,13 +41,14 @@ body{
 .contactMenu a{
 	padding-right: 1em;
 	text-align: center;
-	background-color: black;
-	border-radius: 1em;
+	background-color: rgb(50,20,30);
 	padding: 10;
+	margin-right: 5;
 	text-align: center;
 	opacity: .8;
 	text-decoration: none;
-	color: inherit;
+	color: white;
+	font-size: 0.7em;
 }
 .contact p{
 	text-align: left;
