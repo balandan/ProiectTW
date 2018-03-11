@@ -11,17 +11,24 @@ body{
 
 #bodycontact{
 	border:solid;
-	border-width: 3px;
-	border-radius: 10px;
-	border-bottom: 2;
+	border-width: 0.2em;
+	border-radius: 1em;
+	border-bottom: 50vw;
 	background: url('contact.jpg');
 	background-size: cover;
-
+	background-color: black;
+	opacity: .4;
+	position: relative;
 }
-#headercontact p{
+#headercontact1{
+	position: relative;
+	border-radius: 1em;
 	text-align: center;
-	font-size: 50px;
-
+	font-size: 2.3em;
+}
+#headercontact1 > p:hover{
+	position: relative;
+	font-size: 2em;
 }
 
 img {
