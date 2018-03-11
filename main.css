@@ -1,7 +1,7 @@
 body{
 
 	background: url('Background1.jpg') ;
-
+	background-size: cover;
 	width:70vw;
 	font-family:Arial;
 	color:white;
