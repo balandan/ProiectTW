@@ -1,0 +1,91 @@
+
+#bodycontact{
+	background: url('back1.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background.opacity: .8;
+	background-repeat: no-repeat;
+	padding-top: 5em;
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 10em;
+	position: relative;
+}
+
+.contact{
+	background-color: rgb(50,20,30);
+	border-color: rgb(150,50,170);
+	border-radius: 1em;
+	padding-bottom: 3em;
+	text-align: center;
+	position: relative;
+	border-bottom: 0;
+	font-size: 2vw;
+	border-right: 0;
+	border-left: 0;
+	border-top: 10;
+	border: solid;
+	opacity: .8;
+	top: 3vw;
+}
+
+
+.contact:hover{
+	-webkit-transition-duration: 0.6s;
+}
+
+.contactMenu{
+	padding-bottom:1em;
+	padding-left: 2em;
+	font-size: 2vw;
+	font-family: sans-serif;
+	position: relative;
+	padding: 1px;
+}
+
+.contact:hover{
+	background: green;
+}
+
+.contactMenu a{
+	background-color: rgb(50,20,30);
+	text-decoration: none;
+	text-align: center;
+	padding-right: 1em;
+	text-align: center;
+	border-radius: 1em;
+	font-size: 0.7em;
+	margin-right: 5;
+	color: white;
+	padding: 1em;
+	opacity: .8;
+
+}
+
+.contactMenu a:hover{
+	-webkit-transition-duration: 0.6s;
+	-webkit-transform: scale(1,1.1);
+	transform: scale(1,1.2);
+	background: green;
+}
+
+.contact header{
+	font-size: 1.5em;
+	color: white;
+	font-family: sans-serif;
+}
+
+.contact p{
+	font-family: sans-serif;
+	text-align: left;
+	color: white;
+	padding:10;
+}
+
+#footer span{
+	font-size: 1em;
+	font-family: sans-serif;
+	color: white;
+	float: right;
+
+}

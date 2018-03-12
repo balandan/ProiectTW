@@ -1,40 +1,16 @@
 body{
 
-	background: url('back4.jpg') ;
-	background-size:cover;
+	background: url('backhome.jpg') ;
+	background-size: cover;
 	width:70vw;
-	font-family:Arial;
+	font-family:sans-serif;
 	color:white;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-#bodycontact{
-	background: url('background3.jpg');
-	background-size: cover;
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-}
-
-#bodycontact #person{
-	background-color: lightblue;
-	position:relative;
-	font-size: 40px;
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: 10%;
-	padding-right: 10%;
-	max-width: 100%;
-}
-#bodycontact #person:first-child{
-	background-color: black;
-	opacity: .8;
-}
-
-
 img {
+	opacity: .9;
 	max-width: 100%;
     max-height: 100%;
 }
@@ -44,20 +20,17 @@ ul {
     list-style:none;
 }
 .menu {
-	position:absolute;
-	left:20vw;
+	position:relative;
+	float:left;
+	left:50%;
 	margin-top:2vw;
 }
-#body{
-	background-color: black;
-	opacity: .8;
+.menu2{
 	position: absolute;
-	width: 100%;
-	left: 0px;
-	bottom: 0px;;
+
 }
 #body p{
-	font-family: Arial;
+	font-family: sans-serif;
 	font-size: 70vm;
 	padding-left: 47%;
 }
@@ -69,7 +42,7 @@ text-decoration: none;
 
 }
 #body{
-	background-color: black;
+	background-color: rgb(50,20,30);
 	opacity: .8;
 	position: absolute;
 	bottom: 0;
@@ -78,7 +51,7 @@ text-decoration: none;
 	right: 0;
 }
 #body p{
-	font-family: Arial;
+	font-family: sans-serif;
 	font-size: 20px;
 	padding-left: 47%;
 }
@@ -87,19 +60,21 @@ text-decoration: none;
 }
 #body:hover{
 	background-color: green;
+	transition-duration: 0.6s;
 
 }
 
 
 ul li{
 	float:left;
+	position:relative;
+	right:50%;
 	width:16vw;
 	height: 5vw;
-	background-color:black;
+	background-color: rgb(50,20,30);
 	opacity: .8;
 	line-height:5vw;
 	text-align: center;
-    margin-left:0.2vw;
 }
 ul li a{
 	text-decoration:none;
@@ -108,6 +83,7 @@ ul li a{
 }
 ul li a:hover{
     background-color:green;
+    transition-duration: 0.6s;
 }
 ul li ul li{
     display:none;
@@ -116,29 +92,35 @@ ul li ul li{
 ul li:hover ul li{
 	display:block;
 }
+
 .logo{
-	width:14vw;
-	height:14vw;
+	margin-top:3vw;		
+	width:9vw;
+	height:8vw;
 	position:absolute;
-	left:9vw;
+	left:18vw;
 	top:-2vw;
 	margin-left:-0.2vw;
 }
 
+
 #Home {
-	  background-color:#FE9A2E;
-	  opacity: .8;
-	  width:80vw;
-	  height:32vw;
+	  background-color: rgb(50,20,30);
+	  opacity: .9;
+	  width:84vw;
+	  height:36vw;
 	  position:absolute;
-	  top:9vw;
-	  left:10vw;	
+	  top:10vw;
+	  left:50%;
+	  margin-left:-42vw;
+	  /*left:10vw;*/
 	  overflow-x:hidden;
 	  overflow-y:auto;
 }
 #Home p{
-    font-family: Arial;
-	font-size: 1.2vw;
+	color:white;
+    font-family: sans-serif;
+	font-size: 20px;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -146,14 +128,10 @@ ul li:hover ul li{
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: grey;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#000,#30ff00); 
+    background: linear-gradient(#000,#00664d);
 }
-
-	  
-	  
-	  
