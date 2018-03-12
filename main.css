@@ -1,6 +1,6 @@
 body{
 
-	background: url('Background1.jpg') ;
+	background: url('contact.jpg') ;
 	background-size: cover;
 	width:70vw;
 	font-family:Arial;
@@ -10,11 +10,13 @@ body{
 }
 
 #bodycontact{
-	background: url('Background1.jpg');
+	background: url('contact.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background.scroll-behavior: 1;
-
+}
+#bodycontact:focus{
+	color: black;
 }
 
 .contact{
@@ -30,7 +32,7 @@ body{
 	border-bottom: 0;
 	border-left: 0;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	bottom: 10;
 }
 .contactMenu{
@@ -49,10 +51,26 @@ body{
 	text-decoration: none;
 	color: white;
 	font-size: 0.7em;
+	border-radius: 1em;
+}
+.contactMenu a:hover{
+	background: green;
+}
+.contact:hover{
+	background: green;
+}
+.contactMenu:hover{
+	-webkit-transform: scale(1,1.1);
+}
+.contact{
+	border-spacing: 2em;
 }
 .contact p{
 	text-align: left;
 	padding:10;
+}
+.contact header:hover{
+	-webkit-transform: scale(1,1.3);
 }
 
 img {
@@ -61,7 +79,7 @@ img {
 }
 ul {
     margin: 0px;
-	padding:0px;
+		padding:0px;
     list-style:none;
 }
 .menu {
